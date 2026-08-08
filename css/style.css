@@ -124,7 +124,7 @@ body{
 .buho-bienvenida{
 
     animation:
-        entradaBuho 1.8s ease-out forwards,
+        entradaBuho 5s ease-out forwards,
         respiracionBuho 4s ease-in-out 1.8s infinite;
 
     filter:
@@ -135,7 +135,6 @@ body{
 
 
 /* Entrada inicial */
-
 @keyframes entradaBuho{
 
     0%{
@@ -143,11 +142,9 @@ body{
         opacity:0;
 
         transform:
-            scale(0.82)
-            translateY(18px);
-
-        filter:
-            drop-shadow(0 0 0 rgba(0, 140, 255, 0));
+            scale(0.3)
+            translateY(80px)
+            rotate(-8deg);
 
     }
 
@@ -157,12 +154,12 @@ body{
 
         transform:
             scale(1)
-            translateY(0);
+            translateY(0)
+            rotate(0deg);
 
     }
 
 }
-
 
 /* Movimiento casi imperceptible */
 

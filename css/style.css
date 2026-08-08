@@ -76,12 +76,14 @@ body{
 
     padding:30px;
 
+    gap:0;
+
 }
 
 
 .buho-bienvenida{
 
-    width:250px;
+    width:220px;
 
     max-width:70vw;
 
@@ -94,7 +96,7 @@ body{
 
 .bienvenida h1{
 
-    margin:8px 0 8px;
+    margin:-10px 0 8px;
 
     color:#ffffff;
 

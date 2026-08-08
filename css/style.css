@@ -124,7 +124,7 @@ body{
 .buho-bienvenida{
 
     animation:
-        entradaBuho 5s ease-out forwards,
+        entradaBuho 2.2s ease-out forwards,
         respiracionBuho 4s ease-in-out 1.8s infinite;
 
     filter:
@@ -177,5 +177,64 @@ body{
         transform:scale(1.025);
 
     }
+
+}
+/* =================================
+   ATMÓSFERA DEL BÚHO
+================================= */
+
+.bienvenida-contenido{
+    position:relative;
+}
+
+
+/* Halo de luz detrás del búho */
+
+.bienvenida-contenido::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:280px;
+    height:280px;
+
+    top:20px;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    background:rgba(0, 140, 255, 0.20);
+
+    border-radius:50%;
+
+    filter:blur(65px);
+
+    z-index:0;
+
+    pointer-events:none;
+
+}
+
+
+/* El búho queda por encima del halo */
+
+.buho-bienvenida{
+
+    position:relative;
+
+    z-index:1;
+
+}
+
+
+/* Título y subtítulo sobre la atmósfera */
+
+.bienvenida h1,
+.bienvenida p{
+
+    position:relative;
+
+    z-index:1;
 
 }

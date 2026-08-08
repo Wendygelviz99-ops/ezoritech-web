@@ -116,3 +116,69 @@ body{
     letter-spacing:2px;
 
 }
+
+/* =================================
+   ANIMACIÓN DEL BÚHO
+================================= */
+
+.buho-bienvenida{
+
+    animation:
+        entradaBuho 1.8s ease-out forwards,
+        respiracionBuho 4s ease-in-out 1.8s infinite;
+
+    filter:
+        drop-shadow(0 0 12px rgba(0, 140, 255, 0.35))
+        drop-shadow(0 0 30px rgba(0, 140, 255, 0.18));
+
+}
+
+
+/* Entrada inicial */
+
+@keyframes entradaBuho{
+
+    0%{
+
+        opacity:0;
+
+        transform:
+            scale(0.82)
+            translateY(18px);
+
+        filter:
+            drop-shadow(0 0 0 rgba(0, 140, 255, 0));
+
+    }
+
+    100%{
+
+        opacity:1;
+
+        transform:
+            scale(1)
+            translateY(0);
+
+    }
+
+}
+
+
+/* Movimiento casi imperceptible */
+
+@keyframes respiracionBuho{
+
+    0%,
+    100%{
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.025);
+
+    }
+
+}

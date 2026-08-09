@@ -111,7 +111,6 @@ body{
     animation:aparicionTitulo 1.2s ease-out 2s forwards;
 
 }
-
 .bienvenida p{
 
     margin:0;
@@ -122,8 +121,13 @@ body{
 
     letter-spacing:2px;
 
-}
+    opacity:0;
 
+    transform:translateY(12px);
+
+    animation:aparicionSlogan 1.2s ease-out 2.8s forwards;
+
+}
 /* =================================
    ANIMACIÓN DEL BÚHO
 ================================= */
@@ -318,6 +322,29 @@ body{
         opacity:0;
 
         transform:translateY(18px);
+
+    }
+
+    100%{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+/* =================================
+   ENTRADA DEL SLOGAN
+================================= */
+
+@keyframes aparicionSlogan{
+
+    0%{
+
+        opacity:0;
+
+        transform:translateY(12px);
 
     }
 

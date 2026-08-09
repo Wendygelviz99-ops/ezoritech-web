@@ -94,11 +94,9 @@ body{
     margin-bottom:-45px;
 
 }
-
-
 .bienvenida h1{
 
-    margin:-10px 0 8px;
+    margin:8px 0 8px;
 
     color:#ffffff;
 
@@ -106,8 +104,13 @@ body{
 
     letter-spacing:6px;
 
-}
+    opacity:0;
 
+    transform:translateY(18px);
+
+    animation:aparicionTitulo 1.2s ease-out 2s forwards;
+
+}
 
 .bienvenida p{
 
@@ -300,6 +303,29 @@ body{
             scale(1.08);
 
         opacity:0.95;
+
+    }
+
+}
+/* =================================
+   ENTRADA DEL TÍTULO
+================================= */
+
+@keyframes aparicionTitulo{
+
+    0%{
+
+        opacity:0;
+
+        transform:translateY(18px);
+
+    }
+
+    100%{
+
+        opacity:1;
+
+        transform:translateY(0);
 
     }
 

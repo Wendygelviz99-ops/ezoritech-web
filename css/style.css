@@ -454,3 +454,202 @@ body{
     }
 
 }
+/* =================================
+   TARJETAS iPHONE / ANDROID
+================================= */
+
+.equipos-tarjetas{
+
+    display:flex;
+
+    gap:14px;
+
+    width:100%;
+
+    max-width:700px;
+
+    margin:35px auto 0;
+
+    padding:0 20px;
+
+    box-sizing:border-box;
+
+}
+
+
+.tarjeta-equipo{
+
+    position:relative;
+
+    flex:1;
+
+    min-height:230px;
+
+    padding:25px 15px;
+
+    box-sizing:border-box;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    color:#ffffff;
+
+    background:linear-gradient(
+        145deg,
+        #101010,
+        #050505
+    );
+
+    border:1px solid rgba(0,140,255,.65);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 0 12px rgba(0,110,255,.25),
+        inset 0 0 18px rgba(0,110,255,.08);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease;
+
+}
+
+
+/* BRILLO AZUL */
+
+.tarjeta-equipo::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:120px;
+
+    height:120px;
+
+    background:rgba(0,120,255,.18);
+
+    border-radius:50%;
+
+    filter:blur(35px);
+
+    top:-50px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
+
+
+/* ICONO */
+
+.tarjeta-icono{
+
+    position:relative;
+
+    font-size:52px;
+
+    line-height:1;
+
+    margin-bottom:18px;
+
+    color:#ffffff;
+
+    text-shadow:
+        0 0 8px rgba(0,140,255,.7),
+        0 0 20px rgba(0,110,255,.4);
+
+}
+
+
+/* TEXTO */
+
+.tarjeta-info{
+
+    position:relative;
+
+}
+
+
+.tarjeta-info h3{
+
+    margin:0;
+
+    font-size:24px;
+
+    letter-spacing:2px;
+
+}
+
+
+.tarjeta-info p{
+
+    margin:8px 0 0;
+
+    color:#9b9b9b;
+
+    font-size:12px;
+
+    line-height:1.4;
+
+}
+
+
+/* FLECHA */
+
+.tarjeta-flecha{
+
+    position:relative;
+
+    margin-top:18px;
+
+    width:32px;
+
+    height:32px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border:1px solid #008cff;
+
+    border-radius:50%;
+
+    color:#ffffff;
+
+    font-size:18px;
+
+    box-shadow:
+        0 0 10px rgba(0,140,255,.45);
+
+}
+
+
+/* EFECTO AL TOCAR */
+
+.tarjeta-equipo:active{
+
+    transform:scale(.97);
+
+    border-color:#00a2ff;
+
+    box-shadow:
+        0 0 22px rgba(0,140,255,.55),
+        inset 0 0 20px rgba(0,140,255,.12);
+
+}

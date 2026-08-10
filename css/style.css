@@ -472,6 +472,25 @@ body{
 /* =================================
    TARJETAS iPHONE / ANDROID
 ================================= */
+/* =================================
+   BLOQUE DE EQUIPOS
+================================= */
+
+.equipos{
+
+    width:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    box-sizing:border-box;
+
+    margin-top:35px;
+
+}
 
 .equipos-tarjetas{
 

@@ -742,3 +742,28 @@ body{
     justify-content:center;
 
 }
+/* =================================
+   LOGO ANDROID
+================================= */
+
+.logo-android{
+
+    width:58px;
+
+    height:58px;
+
+    fill:#ffffff;
+
+    stroke:#ffffff;
+
+    stroke-width:2.5;
+
+    stroke-linecap:round;
+
+    stroke-linejoin:round;
+
+    filter:
+        drop-shadow(0 0 8px rgba(0,140,255,.75))
+        drop-shadow(0 0 18px rgba(0,110,255,.45));
+
+}

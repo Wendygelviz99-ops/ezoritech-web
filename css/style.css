@@ -357,3 +357,76 @@ body{
     }
 
 }
+/* =================================
+   PRIMERA SECCIÓN
+================================= */
+
+.inicio{
+
+    min-height:100vh;
+
+    background:#050505;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:40px 25px;
+
+    text-align:center;
+
+}
+
+
+.inicio-contenido{
+
+    width:100%;
+
+    max-width:500px;
+
+}
+
+
+.inicio-etiqueta{
+
+    display:block;
+
+    color:#168cff;
+
+    font-size:13px;
+
+    letter-spacing:5px;
+
+    margin-bottom:18px;
+
+}
+
+
+.inicio h2{
+
+    margin:0;
+
+    color:#ffffff;
+
+    font-size:32px;
+
+    line-height:1.15;
+
+    letter-spacing:1px;
+
+}
+
+
+.inicio p{
+
+    margin:22px 0 0;
+
+    color:#bdbdbd;
+
+    font-size:17px;
+
+    line-height:1.5;
+
+}

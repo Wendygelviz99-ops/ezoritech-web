@@ -59,8 +59,9 @@ body{
 
     overflow:hidden;
 
-}
+    animation:salidaBienvenida 1.2s ease-in-out 6s forwards;
 
+}
 
 .bienvenida-contenido{
 
@@ -428,5 +429,26 @@ body{
     font-size:17px;
 
     line-height:1.5;
+
+}
+/* =================================
+   SALIDA DE LA BIENVENIDA
+================================= */
+
+@keyframes salidaBienvenida{
+
+    0%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        visibility:hidden;
+
+    }
 
 }

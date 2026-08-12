@@ -768,3 +768,167 @@ body{
         drop-shadow(0 0 18px rgba(0,110,255,.45));
 
 }
+/* =================================
+   SECCIÓN IPHONE
+================================= */
+
+.seccion-iphone{
+
+    min-height:100vh;
+
+    background:#050505;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:70px 25px;
+
+    box-sizing:border-box;
+
+}
+
+
+.iphone-contenido{
+
+    width:100%;
+
+    max-width:600px;
+
+    text-align:center;
+
+}
+
+
+.iphone-etiqueta{
+
+    display:block;
+
+    color:#008cff;
+
+    font-size:14px;
+
+    letter-spacing:6px;
+
+    margin-bottom:18px;
+
+}
+
+
+.iphone-contenido h2{
+
+    margin:0 0 16px;
+
+    color:#ffffff;
+
+    font-size:34px;
+
+    line-height:1.15;
+
+}
+
+
+.iphone-contenido > p{
+
+    margin:0 auto 35px;
+
+    color:#bdbdbd;
+
+    font-size:16px;
+
+    line-height:1.5;
+
+    max-width:450px;
+
+}
+
+
+/* =================================
+   CARRUSEL IPHONE
+================================= */
+
+.iphone-carrusel{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+
+.iphone-slide{
+
+    width:100%;
+
+    max-width:430px;
+
+    padding:25px;
+
+    box-sizing:border-box;
+
+    border:1px solid rgba(0,140,255,.65);
+
+    border-radius:22px;
+
+    background:linear-gradient(
+        145deg,
+        #101820,
+        #050505
+    );
+
+    box-shadow:
+        0 0 18px rgba(0,110,255,.22),
+        inset 0 0 20px rgba(0,110,255,.06);
+
+}
+
+
+/* Espacio reservado para la futura imagen */
+
+.iphone-imagen{
+
+    width:100%;
+
+    height:230px;
+
+    border-radius:16px;
+
+    background:#080808;
+
+    margin-bottom:25px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+.iphone-slide h3{
+
+    margin:0 0 10px;
+
+    color:#ffffff;
+
+    font-size:24px;
+
+}
+
+
+.iphone-slide p{
+
+    margin:0;
+
+    color:#bdbdbd;
+
+    font-size:15px;
+
+    line-height:1.5;
+
+}

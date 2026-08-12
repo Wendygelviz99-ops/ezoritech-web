@@ -855,16 +855,39 @@ body{
 
     display:flex;
 
-    justify-content:center;
+    gap:18px;
+
+    overflow-x:auto;
+
+    scroll-snap-type:x mandatory;
+
+    scroll-behavior:smooth;
+
+    padding:0 5px 20px;
+
+    box-sizing:border-box;
+
+    justify-content:flex-start;
+
+    -webkit-overflow-scrolling:touch;
+
+    scrollbar-width:none;
 
 }
 
+.iphone-carrusel::-webkit-scrollbar{
+
+    display:none;
+
+}
 
 .iphone-slide{
 
-    width:100%;
+    flex:0 0 100%;
 
-    max-width:430px;
+    max-width:none;
+
+    scroll-snap-align:center;
 
     padding:25px;
 
@@ -885,7 +908,6 @@ body{
         inset 0 0 20px rgba(0,110,255,.06);
 
 }
-
 
 /* Espacio reservado para la futura imagen */
 
@@ -909,6 +931,15 @@ body{
 
 }
 
+.iphone-imagen{
+
+    color:#008cff;
+
+    font-size:14px;
+
+    letter-spacing:4px;
+
+}
 
 .iphone-slide h3{
 
@@ -919,7 +950,6 @@ body{
     font-size:24px;
 
 }
-
 
 .iphone-slide p{
 

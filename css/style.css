@@ -968,24 +968,29 @@ body{
 
 .android-carrusel{
 
+    width:100%;
+
     display:flex;
+
+    gap:18px;
 
     overflow-x:auto;
 
     scroll-snap-type:x mandatory;
 
-    gap:20px;
-
-    width:100%;
-
-    padding:10px 0 25px;
-
     scroll-behavior:smooth;
+
+    padding:0 5px 20px;
+
+    box-sizing:border-box;
+
+    justify-content:flex-start;
 
     -webkit-overflow-scrolling:touch;
 
-}
+    scrollbar-width:none;
 
+}
 
 .android-carrusel::-webkit-scrollbar{
 
@@ -993,29 +998,33 @@ body{
 
 }
 
-
 .android-tarjeta{
 
-    flex:0 0 90%;
+    flex:0 0 100%;
+
+    max-width:none;
 
     scroll-snap-align:center;
 
-    background:#080808;
-
-    border:1px solid rgba(0,140,255,.65);
-
-    border-radius:18px;
-
-    padding:18px;
+    padding:25px;
 
     box-sizing:border-box;
 
+    border:1px solid rgba(0,140,255,.65);
+
+    border-radius:22px;
+
+    background:linear-gradient(
+        145deg,
+        #101820,
+        #050505
+    );
+
     box-shadow:
-        0 0 12px rgba(0,110,255,.25),
-        inset 0 0 18px rgba(0,110,255,.08);
+        0 0 18px rgba(0,110,255,.22),
+        inset 0 0 20px rgba(0,110,255,.06);
 
 }
-
 
 .android-imagen{
 
@@ -1035,23 +1044,13 @@ body{
 
     justify-content:center;
 
-    overflow:hidden;
+    color:#008cff;
+
+    font-size:14px;
+
+    letter-spacing:4px;
 
 }
-
-
-.android-imagen img{
-
-    width:100%;
-
-    height:100%;
-
-    object-fit:cover;
-
-    display:block;
-
-}
-
 
 .android-tarjeta h3{
 
@@ -1063,14 +1062,13 @@ body{
 
 }
 
-
 .android-tarjeta p{
 
     margin:0;
 
     color:#bdbdbd;
 
-    font-size:16px;
+    font-size:15px;
 
     line-height:1.5;
 

@@ -1093,3 +1093,79 @@ body{
     line-height:1.5;
 
 }
+/* =================================
+   AJUSTE VISUAL CARRUSEL ANDROID
+================================= */
+
+.android-contenido{
+
+    width:100%;
+
+    max-width:740px;
+
+    margin:0 auto;
+
+    text-align:center;
+
+}
+
+
+.android-etiqueta{
+
+    display:block;
+
+    color:#008cff;
+
+    font-size:14px;
+
+    letter-spacing:6px;
+
+    margin-bottom:28px;
+
+    text-shadow:
+        0 0 8px rgba(0,140,255,.55),
+        0 0 18px rgba(0,140,255,.25);
+
+}
+
+
+.android-contenido h2{
+
+    margin:0 0 25px;
+
+    color:#ffffff;
+
+    font-size:44px;
+
+    line-height:1.1;
+
+}
+
+
+.android-contenido > p{
+
+    margin:0 0 45px;
+
+    color:#bdbdbd;
+
+    font-size:18px;
+
+    line-height:1.5;
+
+}
+
+
+.android-carrusel{
+
+    width:calc(100% - 80px);
+
+    margin:0 auto;
+
+}
+
+
+.android-tarjeta{
+
+    width:100%;
+
+}

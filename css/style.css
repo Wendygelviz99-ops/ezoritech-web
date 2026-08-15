@@ -998,7 +998,7 @@ body{
 
 }
 
-.android-slide{
+.android-tarjeta{
 
     flex:0 0 100%;
 
@@ -1071,7 +1071,7 @@ body{
 }
 
 
-.android-slide h3{
+.android-tarjeta h3{
 
     margin:0 0 10px;
 
@@ -1082,7 +1082,7 @@ body{
 }
 
 
-.android-slide p{
+.android-tarjeta p{
 
     margin:0;
 

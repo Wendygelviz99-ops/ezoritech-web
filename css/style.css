@@ -1196,35 +1196,30 @@ body{
     overflow:hidden;
 
 }
-
-
 .tecnico-imagen{
 
     position:relative;
 
     width:100%;
 
-    height:320px;
+    aspect-ratio:2.48 / 1;
 
     overflow:hidden;
 
 }
-
-
 .tecnico-imagen img{
 
     width:100%;
 
     height:100%;
 
-    object-fit:cover;
+    object-fit:contain;
 
     object-position:center;
 
     display:block;
 
 }
-
 
 /* Degradado para integrar la foto con el fondo */
 

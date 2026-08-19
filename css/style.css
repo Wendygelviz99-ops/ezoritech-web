@@ -1289,3 +1289,34 @@ body{
     line-height:1.2;
 
 }
+/* =================================
+   AJUSTE DE ESPACIOS ENTRE SECCIONES
+================================= */
+
+.equipos{
+
+    padding-bottom:20px;
+
+}
+
+
+.tecnico-seccion{
+
+    margin-top:0;
+
+    margin-bottom:0;
+
+    padding-top:0;
+
+    padding-bottom:0;
+
+}
+
+
+.seccion-iphone{
+
+    margin-top:0;
+
+    padding-top:20px;
+
+}

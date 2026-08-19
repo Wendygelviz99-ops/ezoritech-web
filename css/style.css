@@ -370,10 +370,11 @@ body{
 /* =================================
    PRIMERA SECCIÓN
 ================================= */
+/* =================================
+   PRIMERA SECCIÓN
+================================= */
 
 .inicio{
-
-    min-height:100vh;
 
     width:100%;
 
@@ -389,14 +390,13 @@ body{
 
     justify-content:center;
 
-    padding:40px 20px;
+    padding:40px 20px 20px;
 
     text-align:center;
 
     overflow:hidden;
 
 }
-
 .inicio-contenido{
 
     width:100%;
@@ -774,22 +774,21 @@ body{
 
 .seccion-iphone{
 
-    min-height:100vh;
+    min-height:auto;
 
     background:#050505;
 
     display:flex;
 
-    align-items:center;
+    align-items:flex-start;
 
     justify-content:center;
 
-    padding:70px 25px;
+    padding:35px 25px 40px;
 
     box-sizing:border-box;
 
 }
-
 
 .iphone-contenido{
 

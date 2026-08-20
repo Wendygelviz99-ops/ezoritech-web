@@ -407,7 +407,15 @@ body{
 
 .inicio-etiqueta{
 
-    display:block;
+    display:block !important;
+
+    visibility:visible !important;
+
+    opacity:1 !important;
+
+    position:relative;
+
+    z-index:10;
 
     color:#168cff;
 
@@ -415,10 +423,9 @@ body{
 
     letter-spacing:5px;
 
-    margin-bottom:18px;
+    margin-bottom:14px;
 
 }
-
 
 .inicio h2{
 
@@ -437,7 +444,7 @@ body{
 
 .inicio p{
 
-    margin:22px 0 0;
+    margin:10px 0 0;
 
     color:#bdbdbd;
 

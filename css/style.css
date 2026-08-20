@@ -1315,17 +1315,33 @@ body{
         box-shadow .25s ease;
 
 }
-
-
 .whatsapp-icono{
 
-    font-size:25px;
+    width:28px;
 
-    line-height:1;
+    height:28px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    flex-shrink:0;
 
 }
 
+.whatsapp-icono img{
 
+    width:100%;
+
+    height:100%;
+
+    object-fit:contain;
+
+    display:block;
+
+}
 .whatsapp-texto{
 
     font-size:14px;

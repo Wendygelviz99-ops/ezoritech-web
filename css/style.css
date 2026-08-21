@@ -1369,4 +1369,22 @@ body{
         0 0 35px rgba(37,211,102,.45);
 
 }
+/* PRUEBA INICIO */
 
+.inicio-etiqueta{
+    display:block !important;
+    visibility:visible !important;
+    opacity:1 !important;
+    color:#168cff !important;
+    font-size:20px !important;
+    letter-spacing:6px !important;
+    margin:0 0 10px !important;
+}
+
+.inicio p{
+    margin:5px 0 !important;
+}
+
+.boton-whatsapp{
+    margin:5px auto 0 !important;
+}

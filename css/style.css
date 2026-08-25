@@ -1369,3 +1369,11 @@ body{
         0 0 35px rgba(37,211,102,.45);
 
 }
+.inicio .inicio-contenido .inicio-etiqueta{
+    display:block !important;
+    visibility:visible !important;
+    opacity:1 !important;
+    position:relative !important;
+    z-index:999 !important;
+    color:#168cff !important;
+}

@@ -1377,3 +1377,218 @@ body{
     z-index:999 !important;
     color:#168cff !important;
 }
+/* =================================
+   ALGUNOS DE NUESTROS SERVICIOS
+================================= */
+
+.servicios{
+
+    width:100%;
+
+    min-height:100vh;
+
+    box-sizing:border-box;
+
+    background:#050505;
+
+    padding:70px 25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+.servicios-titulo{
+
+    width:100%;
+
+    max-width:600px;
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+
+.servicios-titulo span{
+
+    display:block;
+
+    color:#008cff;
+
+    font-size:13px;
+
+    letter-spacing:4px;
+
+    margin-bottom:14px;
+
+}
+
+
+.servicios-titulo h2{
+
+    margin:0;
+
+    color:#ffffff;
+
+    font-size:30px;
+
+    line-height:1.2;
+
+}
+
+
+/* =================================
+   GRID DE SERVICIOS
+================================= */
+
+.servicios-grid{
+
+    width:100%;
+
+    max-width:600px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2, 1fr);
+
+    gap:14px;
+
+}
+
+
+/* =================================
+   TARJETAS
+================================= */
+
+.servicio-card{
+
+    min-height:180px;
+
+    padding:22px 15px;
+
+    box-sizing:border-box;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    border:1px solid rgba(0,140,255,.55);
+
+    border-radius:18px;
+
+    background:linear-gradient(
+        145deg,
+        #101820,
+        #050505
+    );
+
+    box-shadow:
+        0 0 14px rgba(0,110,255,.18),
+        inset 0 0 18px rgba(0,110,255,.05);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease;
+
+}
+
+
+.servicio-icono{
+
+    width:50px;
+
+    height:50px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-bottom:14px;
+
+    color:#008cff;
+
+    font-size:30px;
+
+    border:1px solid rgba(0,140,255,.5);
+
+    border-radius:50%;
+
+    box-shadow:
+        0 0 12px rgba(0,140,255,.35);
+
+}
+
+
+.servicio-card h3{
+
+    margin:0;
+
+    color:#ffffff;
+
+    font-size:18px;
+
+    letter-spacing:1px;
+
+}
+
+
+.servicio-card p{
+
+    margin:8px 0 0;
+
+    color:#9b9b9b;
+
+    font-size:12px;
+
+    line-height:1.4;
+
+}
+
+
+/* =================================
+   EFECTO AL TOCAR
+================================= */
+
+.servicio-card:active{
+
+    transform:scale(.97);
+
+    border-color:#00a2ff;
+
+    box-shadow:
+        0 0 22px rgba(0,140,255,.45),
+        inset 0 0 20px rgba(0,140,255,.10);
+
+}
+
+
+/* =================================
+   WHATSAPP DE SERVICIOS
+================================= */
+
+.servicios-whatsapp{
+
+    width:auto;
+
+    max-width:340px;
+
+    margin:35px auto 0;
+
+    transform:scale(.88);
+
+}

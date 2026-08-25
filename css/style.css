@@ -1580,15 +1580,16 @@ body{
 /* =================================
    WHATSAPP DE SERVICIOS
 ================================= */
-
 .servicios-whatsapp{
 
-    width:auto;
+    width:max-content;
 
-    max-width:340px;
+    max-width:90%;
 
     margin:35px auto 0;
 
     transform:scale(.88);
+
+    white-space:nowrap;
 
 }

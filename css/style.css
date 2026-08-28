@@ -1747,6 +1747,9 @@ body{
 /* =================================
    QUÉ PUEDES FINANCIAR
 ================================= */
+/* =================================
+   QUÉ PUEDES FINANCIAR
+================================= */
 
 .credito-financia{
 
@@ -1757,7 +1760,7 @@ body{
 
 .credito-financia h4{
 
-    margin:0 0 7px;
+    margin:0 0 12px;
 
     color:#008cff;
 
@@ -1768,7 +1771,31 @@ body{
 }
 
 
+/* DOS COLUMNAS × DOS FILAS */
+
+.credito-financia{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    column-gap:18px;
+
+    row-gap:8px;
+
+}
+
+
+.credito-financia h4{
+
+    grid-column:1 / -1;
+
+}
+
+
 .credito-opcion{
+
+    min-height:48px;
 
     display:flex;
 
@@ -1776,35 +1803,30 @@ body{
 
     gap:10px;
 
-    min-height:34px;
+    padding:0 8px;
 
-    border-bottom:1px solid rgba(255,255,255,.08);
+    box-sizing:border-box;
 
     color:#ffffff;
 
     font-size:13px;
 
-}
-
-
-.credito-opcion:last-child{
-
-    border-bottom:none;
+    border-bottom:1px solid rgba(255,255,255,.08);
 
 }
 
 
 .credito-icono{
 
-    width:25px;
+    width:28px;
+
+    flex:0 0 28px;
 
     text-align:center;
 
-    font-size:17px;
+    font-size:19px;
 
 }
-
-
 /* =================================
    TARJETAS ADDI / SISTECRÉDITO
 ================================= */

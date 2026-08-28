@@ -2105,3 +2105,315 @@ body{
     color:#ffd21c;
 
 }
+/* =================================
+   REDES SOCIALES EZORITECH
+================================= */
+
+.redes{
+
+    width:100%;
+
+    background:#050505;
+
+    box-sizing:border-box;
+
+    padding:65px 20px 60px;
+
+    overflow:hidden;
+
+}
+
+
+.redes-contenido{
+
+    width:100%;
+
+    max-width:700px;
+
+    margin:0 auto;
+
+    text-align:center;
+
+}
+
+
+/* =================================
+   ENCABEZADO
+================================= */
+
+.redes-etiqueta{
+
+    display:block;
+
+    color:#008cff;
+
+    font-size:13px;
+
+    letter-spacing:5px;
+
+    margin-bottom:14px;
+
+}
+
+
+.redes h2{
+
+    margin:0;
+
+    color:#ffffff;
+
+    font-size:36px;
+
+    line-height:1.1;
+
+    font-weight:800;
+
+}
+
+
+.redes-descripcion{
+
+    margin:16px auto 0;
+
+    max-width:500px;
+
+    color:#bdbdbd;
+
+    font-size:16px;
+
+    line-height:1.5;
+
+}
+
+
+/* =================================
+   TARJETAS
+================================= */
+
+.redes-tarjetas{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+    margin-top:32px;
+
+}
+
+
+.red-social{
+
+    width:100%;
+
+    min-height:82px;
+
+    padding:15px 22px;
+
+    box-sizing:border-box;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    text-decoration:none;
+
+    border-radius:20px;
+
+    background:linear-gradient(
+        145deg,
+        #101820,
+        #050505
+    );
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+
+}
+
+
+/* =================================
+   ICONOS
+================================= */
+
+.red-social-icono{
+
+    width:50px;
+
+    height:50px;
+
+    flex-shrink:0;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    color:#ffffff;
+
+    font-size:25px;
+
+    background:#050505;
+
+}
+
+
+.red-social-info{
+
+    flex:1;
+
+    text-align:left;
+
+}
+
+
+.red-social-info h3{
+
+    margin:0;
+
+    color:#ffffff;
+
+    font-size:19px;
+
+    font-weight:700;
+
+}
+
+
+.red-social-info p{
+
+    margin:4px 0 0;
+
+    color:#a8a8a8;
+
+    font-size:14px;
+
+}
+
+
+.red-social-flecha{
+
+    color:#ffffff;
+
+    font-size:25px;
+
+    line-height:1;
+
+}
+
+
+/* =================================
+   TIKTOK
+================================= */
+
+.red-tiktok{
+
+    border:1px solid rgba(255,255,255,.35);
+
+    box-shadow:
+        0 0 16px rgba(255,255,255,.08),
+        inset 0 0 18px rgba(255,255,255,.03);
+
+}
+
+
+.red-tiktok .red-social-icono{
+
+    border:1px solid rgba(255,255,255,.45);
+
+    box-shadow:
+        0 0 12px rgba(255,255,255,.15);
+
+}
+
+
+/* =================================
+   INSTAGRAM
+================================= */
+
+.red-instagram{
+
+    border:1px solid rgba(225,48,108,.65);
+
+    box-shadow:
+        0 0 18px rgba(225,48,108,.14),
+        inset 0 0 20px rgba(225,48,108,.03);
+
+}
+
+
+.red-instagram .red-social-icono{
+
+    border:1px solid rgba(225,48,108,.7);
+
+    box-shadow:
+        0 0 14px rgba(225,48,108,.35);
+
+}
+
+
+/* =================================
+   FACEBOOK
+================================= */
+
+.red-facebook{
+
+    border:1px solid rgba(0,140,255,.7);
+
+    box-shadow:
+        0 0 18px rgba(0,140,255,.16),
+        inset 0 0 20px rgba(0,140,255,.04);
+
+}
+
+
+.red-facebook .red-social-icono{
+
+    border:1px solid rgba(0,140,255,.75);
+
+    box-shadow:
+        0 0 14px rgba(0,140,255,.4);
+
+}
+
+
+/* =================================
+   EFECTO AL TOCAR
+================================= */
+
+.red-social:active{
+
+    transform:scale(.97);
+
+}
+
+
+.red-tiktok:active{
+
+    box-shadow:
+        0 0 25px rgba(255,255,255,.22);
+
+}
+
+
+.red-instagram:active{
+
+    box-shadow:
+        0 0 28px rgba(225,48,108,.35);
+
+}
+
+
+.red-facebook:active{
+
+    box-shadow:
+        0 0 28px rgba(0,140,255,.35);
+
+}

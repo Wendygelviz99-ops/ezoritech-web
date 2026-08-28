@@ -1605,7 +1605,7 @@ body{
 
     box-sizing:border-box;
 
-    padding:70px 20px 55px;
+    padding:45px 18px 35px;
 
     overflow:hidden;
 
@@ -1624,6 +1624,60 @@ body{
 
 
 /* =================================
+   PRESENTACIÓN + IMAGEN
+================================= */
+
+.credito-principal{
+
+    width:100%;
+
+    display:grid;
+
+    grid-template-columns:1.15fr .85fr;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+
+.credito-texto{
+
+    min-width:0;
+
+}
+
+
+.credito-visual{
+
+    width:100%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+.credito-visual img{
+
+    width:100%;
+
+    max-width:280px;
+
+    height:auto;
+
+    display:block;
+
+    object-fit:contain;
+
+}
+
+
+/* =================================
    ENCABEZADO
 ================================= */
 
@@ -1633,11 +1687,11 @@ body{
 
     color:#008cff;
 
-    font-size:14px;
+    font-size:11px;
 
-    letter-spacing:5px;
+    letter-spacing:3px;
 
-    margin-bottom:16px;
+    margin-bottom:10px;
 
 }
 
@@ -1648,9 +1702,9 @@ body{
 
     color:#ffffff;
 
-    font-size:42px;
+    font-size:31px;
 
-    line-height:1.05;
+    line-height:1.02;
 
     font-weight:800;
 
@@ -1666,11 +1720,11 @@ body{
 
 .credito h3{
 
-    margin:18px 0 0;
+    margin:12px 0 0;
 
     color:#ffffff;
 
-    font-size:22px;
+    font-size:17px;
 
     font-weight:700;
 
@@ -1679,15 +1733,13 @@ body{
 
 .credito-descripcion{
 
-    margin:18px 0 0;
-
-    max-width:500px;
+    margin:12px 0 0;
 
     color:#bdbdbd;
 
-    font-size:17px;
+    font-size:13px;
 
-    line-height:1.55;
+    line-height:1.4;
 
 }
 
@@ -1698,20 +1750,20 @@ body{
 
 .credito-financia{
 
-    margin-top:38px;
+    margin-top:22px;
 
 }
 
 
 .credito-financia h4{
 
-    margin:0 0 15px;
+    margin:0 0 7px;
 
     color:#008cff;
 
-    font-size:18px;
+    font-size:14px;
 
-    letter-spacing:4px;
+    letter-spacing:3px;
 
 }
 
@@ -1722,15 +1774,15 @@ body{
 
     align-items:center;
 
-    gap:14px;
+    gap:10px;
 
-    min-height:48px;
+    min-height:34px;
 
-    border-bottom:1px solid rgba(255,255,255,.10);
+    border-bottom:1px solid rgba(255,255,255,.08);
 
     color:#ffffff;
 
-    font-size:17px;
+    font-size:13px;
 
 }
 
@@ -1744,11 +1796,11 @@ body{
 
 .credito-icono{
 
-    width:32px;
+    width:25px;
 
     text-align:center;
 
-    font-size:22px;
+    font-size:17px;
 
 }
 
@@ -1763,18 +1815,18 @@ body{
 
     grid-template-columns:1fr 1fr;
 
-    gap:18px;
+    gap:12px;
 
-    margin-top:38px;
+    margin-top:22px;
 
 }
 
 
 .credito-tarjeta{
 
-    min-height:250px;
+    min-height:165px;
 
-    padding:28px 18px;
+    padding:18px 12px;
 
     box-sizing:border-box;
 
@@ -1788,7 +1840,7 @@ body{
 
     text-align:center;
 
-    border-radius:22px;
+    border-radius:18px;
 
     background:linear-gradient(
         145deg,
@@ -1804,8 +1856,8 @@ body{
     border:1px solid rgba(0,140,255,.75);
 
     box-shadow:
-        0 0 18px rgba(0,140,255,.20),
-        inset 0 0 20px rgba(0,140,255,.05);
+        0 0 15px rgba(0,140,255,.18),
+        inset 0 0 15px rgba(0,140,255,.04);
 
 }
 
@@ -1815,19 +1867,21 @@ body{
     border:1px solid rgba(0,255,80,.70);
 
     box-shadow:
-        0 0 18px rgba(0,255,80,.16),
-        inset 0 0 20px rgba(0,255,80,.04);
+        0 0 15px rgba(0,255,80,.14),
+        inset 0 0 15px rgba(0,255,80,.03);
 
 }
 
 
-/* LOGOS */
+/* =================================
+   LOGOS
+================================= */
 
 .credito-logo{
 
     color:#4169ff;
 
-    font-size:48px;
+    font-size:38px;
 
     font-weight:800;
 
@@ -1838,7 +1892,7 @@ body{
 
 .credito-siste .credito-logo{
 
-    font-size:27px;
+    font-size:23px;
 
     letter-spacing:-1px;
 
@@ -1861,28 +1915,28 @@ body{
 
 .credito-tarjeta p{
 
-    margin:22px 0 0;
+    margin:12px 0 0;
 
     color:#ffffff;
 
-    font-size:18px;
+    font-size:14px;
 
-    line-height:1.55;
+    line-height:1.35;
 
 }
 
 
 .credito-linea{
 
-    width:70px;
+    width:55px;
 
-    height:3px;
+    height:2px;
 
-    margin:22px 0;
+    margin:12px 0;
 
     background:#008cff;
 
-    box-shadow:0 0 10px rgba(0,140,255,.7);
+    box-shadow:0 0 8px rgba(0,140,255,.7);
 
 }
 
@@ -1891,16 +1945,18 @@ body{
 
     background:#25e04b;
 
-    box-shadow:0 0 10px rgba(37,224,75,.7);
+    box-shadow:0 0 8px rgba(37,224,75,.7);
 
 }
 
 
-/* BENEFICIOS */
+/* =================================
+   BENEFICIOS
+================================= */
 
 .credito-beneficio{
 
-    padding:8px 18px;
+    padding:6px 12px;
 
     border:1px solid #008cff;
 
@@ -1908,7 +1964,7 @@ body{
 
     color:#ffffff;
 
-    font-size:14px;
+    font-size:11px;
 
 }
 
@@ -1928,13 +1984,13 @@ body{
 
     width:90%;
 
-    max-width:560px;
+    max-width:480px;
 
-    min-height:68px;
+    min-height:55px;
 
-    margin:38px auto 0;
+    margin:22px auto 0;
 
-    padding:0 25px;
+    padding:0 20px;
 
     box-sizing:border-box;
 
@@ -1944,7 +2000,7 @@ body{
 
     justify-content:space-between;
 
-    gap:15px;
+    gap:12px;
 
     text-decoration:none;
 
@@ -1958,33 +2014,29 @@ body{
 
     border:1px solid #fff1a3;
 
-    border-radius:38px;
+    border-radius:32px;
 
-    font-size:20px;
+    font-size:16px;
 
     font-weight:800;
 
     box-shadow:
-        0 0 18px rgba(255,200,30,.65),
-        0 0 40px rgba(255,190,20,.25);
-
-    transition:
-        transform .25s ease,
-        box-shadow .25s ease;
+        0 0 16px rgba(255,200,30,.55),
+        0 0 32px rgba(255,190,20,.20);
 
 }
 
 
 .credito-boton-icono{
 
-    font-size:25px;
+    font-size:21px;
 
 }
 
 
 .credito-boton-flecha{
 
-    font-size:32px;
+    font-size:27px;
 
     line-height:1;
 
@@ -1995,10 +2047,6 @@ body{
 
     transform:scale(.97);
 
-    box-shadow:
-        0 0 28px rgba(255,200,30,.85),
-        0 0 55px rgba(255,190,20,.35);
-
 }
 
 
@@ -2008,24 +2056,24 @@ body{
 
 .credito-respuesta{
 
-    margin-top:18px;
+    margin-top:10px;
 
     text-align:center;
 
     color:#d0d0d0;
 
-    font-size:15px;
+    font-size:12px;
 
 }
 
 
 .credito-respuesta span{
 
-    margin-right:8px;
+    margin-right:6px;
 
     color:#ffd21c;
 
-    font-size:22px;
+    font-size:17px;
 
 }
 

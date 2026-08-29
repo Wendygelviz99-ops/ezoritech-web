@@ -2106,7 +2106,7 @@ body{
 
 }
 /* =================================
-   REDES SOCIALES EZORITECH
+   REDES SOCIALES
 ================================= */
 
 .redes{
@@ -2117,7 +2117,7 @@ body{
 
     box-sizing:border-box;
 
-    padding:65px 20px 60px;
+    padding:70px 20px 45px;
 
     overflow:hidden;
 
@@ -2128,11 +2128,11 @@ body{
 
     width:100%;
 
-    max-width:700px;
+    max-width:1000px;
 
     margin:0 auto;
 
-    text-align:center;
+    position:relative;
 
 }
 
@@ -2141,17 +2141,28 @@ body{
    ENCABEZADO
 ================================= */
 
+.redes-texto{
+
+    text-align:center;
+
+    max-width:760px;
+
+    margin:0 auto 42px;
+
+}
+
+
 .redes-etiqueta{
 
     display:block;
 
     color:#008cff;
 
-    font-size:13px;
+    font-size:14px;
 
-    letter-spacing:5px;
+    letter-spacing:6px;
 
-    margin-bottom:14px;
+    margin-bottom:18px;
 
 }
 
@@ -2162,35 +2173,35 @@ body{
 
     color:#ffffff;
 
-    font-size:36px;
+    font-size:44px;
 
-    line-height:1.1;
+    line-height:1;
 
     font-weight:800;
 
 }
 
 
-.redes-descripcion{
+.redes-texto p{
 
-    margin:16px auto 0;
+    max-width:650px;
 
-    max-width:500px;
+    margin:22px auto 0;
 
     color:#bdbdbd;
 
-    font-size:16px;
+    font-size:18px;
 
-    line-height:1.5;
+    line-height:1.55;
 
 }
 
 
 /* =================================
-   TARJETAS
+   LISTA DE REDES
 ================================= */
 
-.redes-tarjetas{
+.redes-lista{
 
     display:flex;
 
@@ -2198,18 +2209,20 @@ body{
 
     gap:16px;
 
-    margin-top:32px;
-
 }
 
+
+/* =================================
+   TARJETA RED SOCIAL
+================================= */
 
 .red-social{
 
     width:100%;
 
-    min-height:82px;
+    min-height:105px;
 
-    padding:15px 22px;
+    padding:18px 24px;
 
     box-sizing:border-box;
 
@@ -2217,36 +2230,50 @@ body{
 
     align-items:center;
 
-    gap:18px;
+    gap:22px;
 
     text-decoration:none;
-
-    border-radius:20px;
 
     background:linear-gradient(
         145deg,
         #101820,
-        #050505
+        #06080a
     );
+
+    border:1px solid rgba(0,140,255,.30);
+
+    border-radius:24px;
+
+    box-shadow:
+        0 0 20px rgba(0,140,255,.06),
+        inset 0 0 20px rgba(0,140,255,.025);
 
     transition:
         transform .25s ease,
+        border-color .25s ease,
         box-shadow .25s ease;
 
 }
 
 
+.red-social:active{
+
+    transform:scale(.98);
+
+}
+
+
 /* =================================
-   ICONOS
+   ICONO
 ================================= */
 
 .red-social-icono{
 
-    width:50px;
+    width:64px;
 
-    height:50px;
+    height:64px;
 
-    flex-shrink:0;
+    flex:0 0 64px;
 
     display:flex;
 
@@ -2256,20 +2283,34 @@ body{
 
     border-radius:50%;
 
-    color:#ffffff;
-
-    font-size:25px;
-
     background:#050505;
+
+    border:1px solid rgba(0,140,255,.50);
+
+    box-shadow:
+        0 0 15px rgba(0,140,255,.20);
 
 }
 
 
+.red-social-icono i{
+
+    color:#ffffff;
+
+    font-size:31px;
+
+}
+
+
+/* =================================
+   INFORMACIÓN
+================================= */
+
 .red-social-info{
 
-    flex:1;
+    min-width:0;
 
-    text-align:left;
+    flex:1;
 
 }
 
@@ -2280,112 +2321,290 @@ body{
 
     color:#ffffff;
 
-    font-size:19px;
+    font-size:20px;
+
+    font-weight:800;
+
+    letter-spacing:2px;
+
+}
+
+
+.red-social-info span{
+
+    display:block;
+
+    margin-top:6px;
+
+    color:#008cff;
+
+    font-size:16px;
+
+    word-break:break-word;
+
+}
+
+
+/* =================================
+   FLECHA
+================================= */
+
+.red-social-flecha{
+
+    flex:0 0 auto;
+
+    color:#008cff;
+
+    font-size:32px;
+
+    line-height:1;
+
+    transition:
+        transform .25s ease;
+
+}
+
+
+.red-social:active .red-social-flecha{
+
+    transform:translateX(5px);
+
+}
+
+
+/* =================================
+   COLORES DE CADA RED
+================================= */
+
+.instagram{
+
+    border-color:rgba(0,140,255,.45);
+
+}
+
+
+.tiktok{
+
+    border-color:rgba(0,140,255,.45);
+
+}
+
+
+.facebook{
+
+    border-color:rgba(0,140,255,.45);
+
+}
+
+
+/* =================================
+   SR. BÚHO
+================================= */
+
+.redes-buho{
+
+    margin-top:34px;
+
+    min-height:230px;
+
+    display:flex;
+
+    align-items:flex-end;
+
+    justify-content:center;
+
+    gap:10px;
+
+    position:relative;
+
+}
+
+
+.redes-buho img{
+
+    width:260px;
+
+    max-width:55%;
+
+    height:auto;
+
+    display:block;
+
+    filter:
+        drop-shadow(0 0 18px rgba(0,140,255,.45));
+
+}
+
+
+.redes-buho-texto{
+
+    padding-bottom:38px;
+
+    text-align:left;
+
+}
+
+
+.redes-buho-texto span{
+
+    color:#008cff;
+
+    font-size:12px;
+
+    letter-spacing:4px;
 
     font-weight:700;
 
 }
 
 
-.red-social-info p{
+.redes-buho-texto p{
 
-    margin:4px 0 0;
-
-    color:#a8a8a8;
-
-    font-size:14px;
-
-}
-
-
-.red-social-flecha{
+    margin:8px 0 0;
 
     color:#ffffff;
 
-    font-size:25px;
+    font-size:18px;
 
-    line-height:1;
+    font-weight:700;
 
 }
 
 
 /* =================================
-   TIKTOK
+   CELULAR
 ================================= */
 
-.red-tiktok{
+@media (max-width:700px){
 
-    border:1px solid rgba(255,255,255,.35);
+    .redes{
 
-    box-shadow:
-        0 0 16px rgba(255,255,255,.08),
-        inset 0 0 18px rgba(255,255,255,.03);
+        padding:55px 18px 35px;
+
+    }
+
+
+    .redes-etiqueta{
+
+        font-size:12px;
+
+        letter-spacing:5px;
+
+    }
+
+
+    .redes h2{
+
+        font-size:38px;
+
+    }
+
+
+    .redes-texto p{
+
+        font-size:16px;
+
+        line-height:1.5;
+
+    }
+
+
+    .redes-lista{
+
+        gap:13px;
+
+    }
+
+
+    .red-social{
+
+        min-height:88px;
+
+        padding:14px 16px;
+
+        gap:14px;
+
+        border-radius:20px;
+
+    }
+
+
+    .red-social-icono{
+
+        width:52px;
+
+        height:52px;
+
+        flex-basis:52px;
+
+    }
+
+
+    .red-social-icono i{
+
+        font-size:25px;
+
+    }
+
+
+    .red-social-info h3{
+
+        font-size:16px;
+
+        letter-spacing:1.5px;
+
+    }
+
+
+    .red-social-info span{
+
+        font-size:14px;
+
+        margin-top:4px;
+
+    }
+
+
+    .red-social-flecha{
+
+        font-size:27px;
+
+    }
+
+
+    .redes-buho{
+
+        min-height:180px;
+
+        margin-top:22px;
+
+        gap:0;
+
+        justify-content:center;
+
+    }
+
+
+    .redes-buho img{
+
+        width:220px;
+
+        max-width:65%;
+
+    }
+
+
+    .redes-buho-texto{
+
+        display:none;
+
+    }
 
 }
-
-
-.red-tiktok .red-social-icono{
-
-    border:1px solid rgba(255,255,255,.45);
-
-    box-shadow:
-        0 0 12px rgba(255,255,255,.15);
-
-}
-
-
 /* =================================
-   INSTAGRAM
-================================= */
 
-.red-instagram{
-
-    border:1px solid rgba(225,48,108,.65);
-
-    box-shadow:
-        0 0 18px rgba(225,48,108,.14),
-        inset 0 0 20px rgba(225,48,108,.03);
-
-}
-
-
-.red-instagram .red-social-icono{
-
-    border:1px solid rgba(225,48,108,.7);
-
-    box-shadow:
-        0 0 14px rgba(225,48,108,.35);
-
-}
-
-
-/* =================================
-   FACEBOOK
-================================= */
-
-.red-facebook{
-
-    border:1px solid rgba(0,140,255,.7);
-
-    box-shadow:
-        0 0 18px rgba(0,140,255,.16),
-        inset 0 0 20px rgba(0,140,255,.04);
-
-}
-
-
-.red-facebook .red-social-icono{
-
-    border:1px solid rgba(0,140,255,.75);
-
-    box-shadow:
-        0 0 14px rgba(0,140,255,.4);
-
-}
-
-
-/* =================================
    EFECTO AL TOCAR
+
 ================================= */
 
 .red-social:active{
@@ -2394,26 +2613,25 @@ body{
 
 }
 
-
 .red-tiktok:active{
 
     box-shadow:
+
         0 0 25px rgba(255,255,255,.22);
 
 }
 
-
 .red-instagram:active{
 
     box-shadow:
+
         0 0 28px rgba(225,48,108,.35);
 
 }
 
-
 .red-facebook:active{
 
     box-shadow:
-        0 0 28px rgba(0,140,255,.35);
 
+        0 0 28px rgba(0,140,255,.35);
 }

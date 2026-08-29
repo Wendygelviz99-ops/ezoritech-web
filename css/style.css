@@ -2117,7 +2117,7 @@ body{
 
     box-sizing:border-box;
 
-    padding:70px 20px 45px;
+    padding:58px 16px 35px;
 
     overflow:hidden;
 
@@ -2128,11 +2128,13 @@ body{
 
     width:100%;
 
-    max-width:1000px;
+    max-width:900px;
 
     margin:0 auto;
 
     position:relative;
+
+    box-sizing:border-box;
 
 }
 
@@ -2143,11 +2145,13 @@ body{
 
 .redes-texto{
 
+    width:100%;
+
     text-align:center;
 
-    max-width:760px;
+    margin:0 auto 32px;
 
-    margin:0 auto 42px;
+    box-sizing:border-box;
 
 }
 
@@ -2158,11 +2162,11 @@ body{
 
     color:#008cff;
 
-    font-size:14px;
+    font-size:12px;
 
-    letter-spacing:6px;
+    letter-spacing:5px;
 
-    margin-bottom:18px;
+    margin-bottom:16px;
 
 }
 
@@ -2173,7 +2177,7 @@ body{
 
     color:#ffffff;
 
-    font-size:44px;
+    font-size:38px;
 
     line-height:1;
 
@@ -2184,45 +2188,55 @@ body{
 
 .redes-texto p{
 
-    max-width:650px;
+    width:100%;
 
-    margin:22px auto 0;
+    max-width:600px;
+
+    margin:18px auto 0;
 
     color:#bdbdbd;
 
-    font-size:18px;
+    font-size:16px;
 
-    line-height:1.55;
+    line-height:1.5;
+
+    box-sizing:border-box;
 
 }
 
 
 /* =================================
-   LISTA DE REDES
+   LISTA
 ================================= */
 
 .redes-lista{
+
+    width:100%;
 
     display:flex;
 
     flex-direction:column;
 
-    gap:16px;
+    gap:13px;
+
+    box-sizing:border-box;
 
 }
 
 
 /* =================================
-   TARJETA RED SOCIAL
+   TARJETAS
 ================================= */
 
 .red-social{
 
     width:100%;
 
-    min-height:105px;
+    min-width:0;
 
-    padding:18px 24px;
+    height:88px;
+
+    padding:12px 15px;
 
     box-sizing:border-box;
 
@@ -2230,50 +2244,164 @@ body{
 
     align-items:center;
 
-    gap:22px;
+    gap:14px;
 
     text-decoration:none;
 
-    background:linear-gradient(
-        145deg,
-        #101820,
-        #06080a
-    );
+    border-radius:20px;
 
-    border:1px solid rgba(0,140,255,.30);
+    background:#090d11;
 
-    border-radius:24px;
+    overflow:hidden;
 
-    box-shadow:
-        0 0 20px rgba(0,140,255,.06),
-        inset 0 0 20px rgba(0,140,255,.025);
+    position:relative;
 
     transition:
         transform .25s ease,
-        border-color .25s ease,
         box-shadow .25s ease;
 
 }
 
 
-.red-social:active{
+/* =================================
+   INSTAGRAM
+================================= */
 
-    transform:scale(.98);
+.red-social.instagram{
+
+    border:1px solid rgba(225,48,108,.85);
+
+    box-shadow:
+        0 0 18px rgba(225,48,108,.18),
+        inset 0 0 20px rgba(225,48,108,.035);
+
+}
+
+
+.red-social.instagram
+.red-social-icono{
+
+    border-color:#e1306c;
+
+    box-shadow:
+        0 0 15px rgba(225,48,108,.35);
+
+}
+
+
+.red-social.instagram
+.red-social-info h3{
+
+    color:#e1306c;
+
+}
+
+
+.red-social.instagram
+.red-social-info span{
+
+    color:#ffffff;
 
 }
 
 
 /* =================================
-   ICONO
+   TIKTOK
+================================= */
+
+.red-social.tiktok{
+
+    border:1px solid rgba(37,244,238,.80);
+
+    box-shadow:
+        0 0 18px rgba(37,244,238,.16),
+        inset 0 0 20px rgba(37,244,238,.035);
+
+}
+
+
+.red-social.tiktok
+.red-social-icono{
+
+    border-color:#25f4ee;
+
+    box-shadow:
+        0 0 15px rgba(37,244,238,.30);
+
+}
+
+
+.red-social.tiktok
+.red-social-info h3{
+
+    color:#25f4ee;
+
+}
+
+
+.red-social.tiktok
+.red-social-info span{
+
+    color:#ffffff;
+
+}
+
+
+/* =================================
+   FACEBOOK
+================================= */
+
+.red-social.facebook{
+
+    border:1px solid rgba(24,119,242,.85);
+
+    box-shadow:
+        0 0 18px rgba(24,119,242,.20),
+        inset 0 0 20px rgba(24,119,242,.035);
+
+}
+
+
+.red-social.facebook
+.red-social-icono{
+
+    border-color:#1877f2;
+
+    box-shadow:
+        0 0 15px rgba(24,119,242,.35);
+
+}
+
+
+.red-social.facebook
+.red-social-info h3{
+
+    color:#1877f2;
+
+}
+
+
+.red-social.facebook
+.red-social-info span{
+
+    color:#ffffff;
+
+}
+
+
+/* =================================
+   ICONOS
 ================================= */
 
 .red-social-icono{
 
-    width:64px;
+    width:52px;
 
-    height:64px;
+    height:52px;
 
-    flex:0 0 64px;
+    min-width:52px;
+
+    flex:0 0 52px;
 
     display:flex;
 
@@ -2283,12 +2411,11 @@ body{
 
     border-radius:50%;
 
-    background:#050505;
+    background:#030303;
 
-    border:1px solid rgba(0,140,255,.50);
+    border:1px solid;
 
-    box-shadow:
-        0 0 15px rgba(0,140,255,.20);
+    box-sizing:border-box;
 
 }
 
@@ -2297,7 +2424,7 @@ body{
 
     color:#ffffff;
 
-    font-size:31px;
+    font-size:25px;
 
 }
 
@@ -2310,7 +2437,11 @@ body{
 
     min-width:0;
 
-    flex:1;
+    width:100%;
+
+    flex:1 1 auto;
+
+    overflow:hidden;
 
 }
 
@@ -2319,13 +2450,21 @@ body{
 
     margin:0;
 
-    color:#ffffff;
+    padding:0;
 
-    font-size:20px;
+    font-size:16px;
+
+    line-height:1.1;
 
     font-weight:800;
 
-    letter-spacing:2px;
+    letter-spacing:1.5px;
+
+    white-space:nowrap;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
 
 }
 
@@ -2334,13 +2473,17 @@ body{
 
     display:block;
 
-    margin-top:6px;
+    margin-top:5px;
 
-    color:#008cff;
+    font-size:14px;
 
-    font-size:16px;
+    line-height:1.2;
 
-    word-break:break-word;
+    white-space:nowrap;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
 
 }
 
@@ -2353,46 +2496,34 @@ body{
 
     flex:0 0 auto;
 
-    color:#008cff;
-
-    font-size:32px;
+    font-size:28px;
 
     line-height:1;
 
-    transition:
-        transform .25s ease;
-
-}
-
-
-.red-social:active .red-social-flecha{
-
-    transform:translateX(5px);
+    color:#ffffff;
 
 }
 
 
 /* =================================
-   COLORES DE CADA RED
+   ELIMINAR DESCRIPCIONES ANTIGUAS
 ================================= */
 
-.instagram{
+/*
+   Si quedaron textos descriptivos
+   de la versión anterior, no se muestran.
+*/
 
-    border-color:rgba(0,140,255,.45);
+.red-social p{
 
-}
-
-
-.tiktok{
-
-    border-color:rgba(0,140,255,.45);
+    display:none;
 
 }
 
 
-.facebook{
+.red-social small{
 
-    border-color:rgba(0,140,255,.45);
+    display:none;
 
 }
 
@@ -2403,9 +2534,11 @@ body{
 
 .redes-buho{
 
-    margin-top:34px;
+    width:100%;
 
-    min-height:230px;
+    min-height:190px;
+
+    margin-top:20px;
 
     display:flex;
 
@@ -2413,7 +2546,7 @@ body{
 
     justify-content:center;
 
-    gap:10px;
+    box-sizing:border-box;
 
     position:relative;
 
@@ -2422,216 +2555,116 @@ body{
 
 .redes-buho img{
 
-    width:260px;
+    width:235px;
 
-    max-width:55%;
+    max-width:70%;
 
     height:auto;
 
     display:block;
 
+    object-fit:contain;
+
     filter:
-        drop-shadow(0 0 18px rgba(0,140,255,.45));
+        drop-shadow(0 0 15px rgba(0,140,255,.45));
 
 }
 
 
 .redes-buho-texto{
 
-    padding-bottom:38px;
-
-    text-align:left;
-
-}
-
-
-.redes-buho-texto span{
-
-    color:#008cff;
-
-    font-size:12px;
-
-    letter-spacing:4px;
-
-    font-weight:700;
-
-}
-
-
-.redes-buho-texto p{
-
-    margin:8px 0 0;
-
-    color:#ffffff;
-
-    font-size:18px;
-
-    font-weight:700;
+    display:none;
 
 }
 
 
 /* =================================
-   CELULAR
+   TABLET / ESCRITORIO
 ================================= */
 
-@media (max-width:700px){
+@media (min-width:701px){
 
     .redes{
 
-        padding:55px 18px 35px;
-
-    }
-
-
-    .redes-etiqueta{
-
-        font-size:12px;
-
-        letter-spacing:5px;
+        padding:75px 25px 45px;
 
     }
 
 
     .redes h2{
 
-        font-size:38px;
+        font-size:46px;
 
     }
 
 
     .redes-texto p{
 
-        font-size:16px;
-
-        line-height:1.5;
-
-    }
-
-
-    .redes-lista{
-
-        gap:13px;
+        font-size:18px;
 
     }
 
 
     .red-social{
 
-        min-height:88px;
+        height:105px;
 
-        padding:14px 16px;
+        padding:18px 24px;
 
-        gap:14px;
-
-        border-radius:20px;
+        border-radius:24px;
 
     }
 
 
     .red-social-icono{
 
-        width:52px;
+        width:64px;
 
-        height:52px;
+        height:64px;
 
-        flex-basis:52px;
+        min-width:64px;
+
+        flex-basis:64px;
 
     }
 
 
     .red-social-icono i{
 
-        font-size:25px;
+        font-size:31px;
 
     }
 
 
     .red-social-info h3{
 
-        font-size:16px;
-
-        letter-spacing:1.5px;
+        font-size:20px;
 
     }
 
 
     .red-social-info span{
 
-        font-size:14px;
-
-        margin-top:4px;
-
-    }
-
-
-    .red-social-flecha{
-
-        font-size:27px;
+        font-size:16px;
 
     }
 
 
     .redes-buho{
 
-        min-height:180px;
+        min-height:260px;
 
-        margin-top:22px;
-
-        gap:0;
-
-        justify-content:center;
+        margin-top:25px;
 
     }
 
 
     .redes-buho img{
 
-        width:220px;
+        width:310px;
 
-        max-width:65%;
-
-    }
-
-
-    .redes-buho-texto{
-
-        display:none;
+        max-width:45%;
 
     }
 
-}
-/* =================================
-
-   EFECTO AL TOCAR
-
-================================= */
-
-.red-social:active{
-
-    transform:scale(.97);
-
-}
-
-.red-tiktok:active{
-
-    box-shadow:
-
-        0 0 25px rgba(255,255,255,.22);
-
-}
-
-.red-instagram:active{
-
-    box-shadow:
-
-        0 0 28px rgba(225,48,108,.35);
-
-}
-
-.red-facebook:active{
-
-    box-shadow:
-
-        0 0 28px rgba(0,140,255,.35);
 }

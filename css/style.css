@@ -2527,7 +2527,6 @@ body{
 
 }
 
-
 /* =================================
    SR. BÚHO
 ================================= */
@@ -2536,15 +2535,13 @@ body{
 
     width:100%;
 
-    min-height:190px;
-
-    margin-top:20px;
+    margin:22px auto 0;
 
     display:flex;
 
-    align-items:flex-end;
-
     justify-content:center;
+
+    align-items:flex-end;
 
     box-sizing:border-box;
 
@@ -2555,9 +2552,9 @@ body{
 
 .redes-buho img{
 
-    width:235px;
+    width:260px;
 
-    max-width:70%;
+    max-width:75%;
 
     height:auto;
 
@@ -2566,17 +2563,10 @@ body{
     object-fit:contain;
 
     filter:
-        drop-shadow(0 0 15px rgba(0,140,255,.45));
+        drop-shadow(0 0 12px rgba(0,140,255,.55))
+        drop-shadow(0 0 28px rgba(0,140,255,.20));
 
 }
-
-
-.redes-buho-texto{
-
-    display:none;
-
-}
-
 
 /* =================================
    TABLET / ESCRITORIO

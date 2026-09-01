@@ -2437,14 +2437,14 @@ body{
 
     min-width:0;
 
-    width:100%;
+    width:auto;
 
-    flex:1 1 auto;
+    flex:1 1 0;
 
     overflow:hidden;
 
+    box-sizing:border-box;
 }
-
 
 .red-social-info h3{
 

@@ -2658,3 +2658,517 @@ body{
     }
 
 }
+/* =================================
+   DÓNDE NOS UBICAMOS
+================================= */
+
+.ubicacion{
+
+    width:100%;
+
+    background:#050505;
+
+    box-sizing:border-box;
+
+    padding:42px 16px 38px;
+
+    overflow:hidden;
+
+}
+
+
+.ubicacion-contenido{
+
+    width:100%;
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    box-sizing:border-box;
+
+}
+
+
+/* =================================
+   ENCABEZADO
+================================= */
+
+.ubicacion-texto{
+
+    width:100%;
+
+    text-align:center;
+
+    box-sizing:border-box;
+
+}
+
+
+.ubicacion-icono-titulo{
+
+    width:52px;
+
+    height:52px;
+
+    margin:0 auto 14px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border:1px solid #008cff;
+
+    border-radius:50%;
+
+    color:#008cff;
+
+    font-size:25px;
+
+    box-shadow:
+        0 0 15px rgba(0,140,255,.45),
+        inset 0 0 15px rgba(0,140,255,.08);
+
+}
+
+
+.ubicacion-etiqueta{
+
+    display:block;
+
+    color:#008cff;
+
+    font-size:12px;
+
+    letter-spacing:5px;
+
+    font-weight:700;
+
+}
+
+
+.ubicacion-texto h2{
+
+    margin:8px 0 0;
+
+    color:#ffffff;
+
+    font-size:38px;
+
+    line-height:1;
+
+    font-weight:800;
+
+}
+
+
+.ubicacion-linea{
+
+    width:70px;
+
+    height:2px;
+
+    margin:20px auto 0;
+
+    background:#008cff;
+
+    box-shadow:
+        0 0 10px rgba(0,140,255,.75);
+
+}
+
+
+.ubicacion-texto p{
+
+    max-width:600px;
+
+    margin:18px auto 0;
+
+    color:#bdbdbd;
+
+    font-size:16px;
+
+    line-height:1.45;
+
+}
+
+
+/* =================================
+   MAPA
+================================= */
+
+.ubicacion-mapa{
+
+    width:100%;
+
+    height:300px;
+
+    margin:28px auto 0;
+
+    border:1px solid #008cff;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    box-sizing:border-box;
+
+    background:#080b10;
+
+    box-shadow:
+        0 0 18px rgba(0,140,255,.35),
+        inset 0 0 25px rgba(0,140,255,.05);
+
+}
+
+
+.ubicacion-mapa iframe{
+
+    width:100%;
+
+    height:100%;
+
+    display:block;
+
+    border:0;
+
+    filter:
+        brightness(.72)
+        contrast(1.12)
+        saturate(.85);
+
+}
+
+
+/* =================================
+   INFORMACIÓN
+================================= */
+
+.ubicacion-info{
+
+    width:100%;
+
+    margin:25px auto 0;
+
+    padding:8px 16px;
+
+    box-sizing:border-box;
+
+    border:1px solid rgba(255,255,255,.16);
+
+    border-radius:22px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(12,18,25,.95),
+            rgba(5,5,5,.98)
+        );
+
+}
+
+
+.ubicacion-dato{
+
+    min-height:68px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    padding:10px 0;
+
+    box-sizing:border-box;
+
+}
+
+
+.ubicacion-dato + .ubicacion-dato{
+
+    border-top:1px solid rgba(255,255,255,.10);
+
+}
+
+
+.ubicacion-dato-icono{
+
+    width:46px;
+
+    height:46px;
+
+    min-width:46px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#020407;
+
+    color:#008cff;
+
+    font-size:21px;
+
+    border:1px solid rgba(0,140,255,.7);
+
+    box-shadow:
+        0 0 14px rgba(0,140,255,.30);
+
+}
+
+
+.ubicacion-dato strong{
+
+    display:block;
+
+    color:#ffffff;
+
+    font-size:15px;
+
+    line-height:1.3;
+
+}
+
+
+.ubicacion-dato div > span{
+
+    display:block;
+
+    color:#bdbdbd;
+
+    font-size:14px;
+
+    line-height:1.4;
+
+}
+
+
+/* =================================
+   BOTÓN CÓMO LLEGAR
+================================= */
+
+.ubicacion-boton{
+
+    width:88%;
+
+    max-width:490px;
+
+    min-height:58px;
+
+    margin:28px auto 0;
+
+    padding:0 22px;
+
+    box-sizing:border-box;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:15px;
+
+    text-decoration:none;
+
+    color:#ffffff;
+
+    background:
+        linear-gradient(
+            145deg,
+            #075cff,
+            #0638bd
+        );
+
+    border:1px solid #008cff;
+
+    border-radius:34px;
+
+    box-shadow:
+        0 0 18px rgba(0,140,255,.55),
+        0 0 38px rgba(0,100,255,.20);
+
+}
+
+
+.ubicacion-boton-icono{
+
+    font-size:23px;
+
+}
+
+
+.ubicacion-boton strong{
+
+    flex:1;
+
+    text-align:center;
+
+    font-size:16px;
+
+    letter-spacing:2px;
+
+}
+
+
+.ubicacion-boton-flecha{
+
+    font-size:27px;
+
+    line-height:1;
+
+}
+
+
+.ubicacion-boton:active{
+
+    transform:scale(.97);
+
+}
+
+
+/* =================================
+   CIERRE
+================================= */
+
+.ubicacion-cierre{
+
+    margin:20px 0 0;
+
+    text-align:center;
+
+    color:#bdbdbd;
+
+    font-size:14px;
+
+}
+
+
+.ubicacion-cierre span{
+
+    margin-right:6px;
+
+    color:#008cff;
+
+    font-size:17px;
+
+}
+
+
+/* =================================
+   TABLET / ESCRITORIO
+================================= */
+
+@media (min-width:701px){
+
+    .ubicacion{
+
+        padding:70px 25px 50px;
+
+    }
+
+
+    .ubicacion-icono-titulo{
+
+        width:62px;
+
+        height:62px;
+
+        font-size:29px;
+
+    }
+
+
+    .ubicacion-texto h2{
+
+        font-size:48px;
+
+    }
+
+
+    .ubicacion-texto p{
+
+        font-size:18px;
+
+    }
+
+
+    .ubicacion-mapa{
+
+        height:390px;
+
+        margin-top:35px;
+
+        border-radius:28px;
+
+    }
+
+
+    .ubicacion-info{
+
+        margin-top:30px;
+
+        padding:10px 22px;
+
+        border-radius:25px;
+
+    }
+
+
+    .ubicacion-dato{
+
+        min-height:75px;
+
+    }
+
+
+    .ubicacion-dato-icono{
+
+        width:52px;
+
+        height:52px;
+
+        min-width:52px;
+
+        font-size:23px;
+
+    }
+
+
+    .ubicacion-dato strong{
+
+        font-size:17px;
+
+    }
+
+
+    .ubicacion-dato div > span{
+
+        font-size:16px;
+
+    }
+
+
+    .ubicacion-boton{
+
+        min-height:65px;
+
+        margin-top:32px;
+
+    }
+
+
+    .ubicacion-boton strong{
+
+        font-size:18px;
+
+    }
+
+}

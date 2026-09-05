@@ -3172,3 +3172,410 @@ body{
     }
 
 }
+/* =================================
+   CIERRE EZORITECH
+================================= */
+
+.cierre{
+
+    width:100%;
+
+    background:#050505;
+
+    box-sizing:border-box;
+
+    padding:15px 16px 30px;
+
+    overflow:hidden;
+
+}
+
+
+.cierre-contenido{
+
+    width:100%;
+
+    max-width:700px;
+
+    margin:0 auto;
+
+    box-sizing:border-box;
+
+}
+
+
+/* =================================
+   SR. BÚHO
+================================= */
+
+.cierre-buho{
+
+    width:100%;
+
+    height:430px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:flex-start;
+
+    overflow:hidden;
+
+    position:relative;
+
+    box-sizing:border-box;
+
+}
+
+
+.cierre-buho img{
+
+    width:380px;
+
+    max-width:110%;
+
+    height:auto;
+
+    display:block;
+
+    flex:none;
+
+    margin-top:-78px;
+
+    object-fit:contain;
+
+    filter:
+        drop-shadow(0 0 16px rgba(0,140,255,.55))
+        drop-shadow(0 0 32px rgba(0,140,255,.22));
+
+}
+
+
+/* =================================
+   CONTACTO
+================================= */
+
+.cierre-contacto{
+
+    width:100%;
+
+    text-align:center;
+
+    box-sizing:border-box;
+
+    margin-top:-2px;
+
+}
+
+
+.cierre-contacto h2{
+
+    margin:0;
+
+    color:#008cff;
+
+    font-size:28px;
+
+    line-height:1.1;
+
+    font-weight:800;
+
+    letter-spacing:1px;
+
+}
+
+
+.cierre-contacto p{
+
+    margin:9px 0 0;
+
+    color:#ffffff;
+
+    font-size:16px;
+
+    line-height:1.4;
+
+}
+
+
+.cierre-contacto p strong{
+
+    color:#008cff;
+
+}
+
+
+/* =================================
+   BOTÓN WHATSAPP
+================================= */
+
+.cierre-boton{
+
+    width:92%;
+
+    max-width:520px;
+
+    min-height:64px;
+
+    margin:22px auto 0;
+
+    padding:0 20px;
+
+    box-sizing:border-box;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:12px;
+
+    text-decoration:none;
+
+    color:#ffffff;
+
+    background:
+        linear-gradient(
+            145deg,
+            #071a38,
+            #050d1d
+        );
+
+    border:1px solid #008cff;
+
+    border-radius:36px;
+
+    box-shadow:
+        0 0 18px rgba(0,140,255,.55),
+        0 0 38px rgba(0,110,255,.20),
+        inset 0 0 18px rgba(0,140,255,.08);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+
+}
+
+
+.cierre-boton-icono{
+
+    font-size:27px;
+
+    line-height:1;
+
+}
+
+
+.cierre-boton strong{
+
+    flex:1;
+
+    text-align:center;
+
+    font-size:15px;
+
+    letter-spacing:1.2px;
+
+}
+
+
+.cierre-boton-flecha{
+
+    font-size:28px;
+
+    line-height:1;
+
+}
+
+
+.cierre-boton:active{
+
+    transform:scale(.97);
+
+    box-shadow:
+        0 0 25px rgba(0,140,255,.75),
+        0 0 45px rgba(0,110,255,.30);
+
+}
+
+
+/* =================================
+   FIRMA FINAL
+================================= */
+
+.cierre-firma{
+
+    width:100%;
+
+    margin-top:30px;
+
+    text-align:center;
+
+    box-sizing:border-box;
+
+}
+
+
+.cierre-linea{
+
+    width:70px;
+
+    height:2px;
+
+    margin:0 auto 22px;
+
+    background:#008cff;
+
+    box-shadow:
+        0 0 10px rgba(0,140,255,.75);
+
+}
+
+
+.cierre-firma h3{
+
+    margin:0;
+
+    color:#ffffff;
+
+    font-size:36px;
+
+    line-height:1;
+
+    font-weight:900;
+
+    letter-spacing:1px;
+
+}
+
+
+.cierre-firma h3 span{
+
+    color:#008cff;
+
+}
+
+
+.cierre-firma p{
+
+    margin:10px 0 0;
+
+    color:#ffffff;
+
+    font-size:14px;
+
+}
+
+
+.cierre-firma p strong{
+
+    color:#008cff;
+
+}
+
+
+.cierre-firma small{
+
+    display:block;
+
+    margin-top:22px;
+
+    color:#777777;
+
+    font-size:11px;
+
+    letter-spacing:.3px;
+
+}
+
+
+.cierre-corazon{
+
+    margin-top:14px;
+
+    color:#008cff;
+
+    font-size:22px;
+
+    line-height:1;
+
+    text-shadow:
+        0 0 10px rgba(0,140,255,.75),
+        0 0 20px rgba(0,140,255,.35);
+
+}
+
+
+/* =================================
+   TABLET / ESCRITORIO
+================================= */
+
+@media (min-width:701px){
+
+    .cierre{
+
+        padding:25px 25px 45px;
+
+    }
+
+
+    .cierre-contenido{
+
+        max-width:850px;
+
+    }
+
+
+    .cierre-buho{
+
+        height:560px;
+
+    }
+
+
+    .cierre-buho img{
+
+        width:500px;
+
+        margin-top:-105px;
+
+    }
+
+
+    .cierre-contacto h2{
+
+        font-size:34px;
+
+    }
+
+
+    .cierre-contacto p{
+
+        font-size:18px;
+
+    }
+
+
+    .cierre-boton{
+
+        min-height:70px;
+
+    }
+
+
+    .cierre-boton strong{
+
+        font-size:18px;
+
+    }
+
+
+    .cierre-firma h3{
+
+        font-size:44px;
+
+    }
+
+}
